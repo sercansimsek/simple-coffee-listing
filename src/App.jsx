@@ -1,3 +1,5 @@
+/* import "tailwindcss"; */
+
 export const App = () => {
-  return <div>App</div>;
+  return <div className="text-red text-lg">App</div>;
 };
