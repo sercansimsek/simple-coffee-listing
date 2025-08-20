@@ -1,5 +1,12 @@
 /* import "tailwindcss"; */
+import { CoffeeList } from "./components/CoffeeList";
 
 export const App = () => {
-  return <div className="text-red text-lg">App</div>;
+  return (
+    <>
+      <div >
+        <CoffeeList />
+      </div>
+    </>
+  )
 };
