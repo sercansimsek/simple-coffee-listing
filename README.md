@@ -55,6 +55,7 @@
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com)
 
 ## Features
 
