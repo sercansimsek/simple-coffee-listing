@@ -1,0 +1,75 @@
+.card {
+	font-family: DM Sans, serif;
+	max-width: 261px;
+	background-color: #1b1d1f;
+}
+
+.card-hero {
+	position: relative;
+}
+
+.card-main_img {
+	border-radius: 1em;
+}
+
+.none {
+	display: none;
+}
+.popular {
+	position: absolute;
+	top: 0.6em;
+	left: 0.6em;
+
+	background-color: #f6c768;
+	border-radius: 1em;
+	padding: 0.1em 0.8em;
+
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.card-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-name {
+	font-size: 16px;
+	font-weight: 500;
+	color: #fef7ee;
+}
+
+.card-price {
+	background-color: #bee3cc;
+	border-radius: 0.3em;
+
+	font-size: 12px;
+	font-weight: 600;
+
+	padding: 0.1em 0.4em;
+}
+
+.rating-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-rating {
+	display: flex;
+	align-items: center;
+	gap: .2em;
+}
+
+.card-rate {
+	color: #FEF7EE;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.card-vote {
+	color: #6F757C;
+	font-size: 14px;
+	font-weight: 600;
+}

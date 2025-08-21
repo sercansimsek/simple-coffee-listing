@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-:root {
-	--font-display: "DM Sans", "sans-serif";
-
-	--color-prison-600: oklch(0.2295 0.0049 248.04);
-}
-
 * {
 	margin: 0;
 	padding: 0;
