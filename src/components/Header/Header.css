@@ -8,6 +8,8 @@
 
 	background-color: #1b1d1f;
 	font-family: DM Sans, serif;
+
+  border-radius: .7em;
 }
 
 .header-hero {
@@ -44,7 +46,7 @@
 .header-buttons {
 	display: flex;
 	gap: 1.4em;
-	margin-bottom: 1.4em;
+	margin-bottom: 2em;
     z-index: 2;
 }
 

@@ -1,0 +1,22 @@
+html,
+body {
+	background-color: black;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	position: relative;
+}
+
+.mainHeader {
+	position: absolute;
+	top: 6em;
+	left: 1.5em;
+	right: 1.5em;
+}
+
+.main-image {
+	width: 100vw;
+	height: 40vh;
+  object-fit: cover;
+}
