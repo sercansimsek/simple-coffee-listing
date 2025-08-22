@@ -20,12 +20,10 @@ export const CoffeeList = () => {
 	}, []);
 
 	return (
-		<div className="container">
-			<ul>
-				{coffeeData.map((coffee) => (
-					<CoffeeCard coffee={coffee} key={coffee.id} />
-				))}
-			</ul>
+		<div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+			{coffeeData.map((coffee) => (
+				<CoffeeCard coffee={coffee} key={coffee.id} />
+			))}
 		</div>
 	);
 };

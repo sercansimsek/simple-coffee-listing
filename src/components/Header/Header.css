@@ -9,13 +9,16 @@
 	background-color: #1b1d1f;
 	font-family: DM Sans, serif;
 
-  border-radius: .7em;
+	border-radius: 0.7em;
+	max-width: 85vw;
+	margin: 0 auto;
+	padding: 0 2em;
 }
 
 .header-hero {
 	position: absolute;
 	top: 1%;
-  z-index: 1;
+	z-index: 1;
 }
 
 .header-text {
@@ -28,7 +31,7 @@
 	margin-top: 2em;
 	padding: 0 1.5em;
 
-  z-index: 2;
+	z-index: 2;
 }
 
 .header-title {
@@ -41,13 +44,14 @@
 	color: #6f757c;
 	font-size: 16px;
 	font-weight: 500;
+	max-width: 550px;
 }
 
 .header-buttons {
 	display: flex;
 	gap: 1.4em;
 	margin-bottom: 2em;
-    z-index: 2;
+	z-index: 2;
 }
 
 .btn-all {

@@ -6,6 +6,10 @@
 	margin-bottom: 2em;
 }
 
+li {
+	list-style: none;
+}
+
 .card-hero {
 	position: relative;
 }
