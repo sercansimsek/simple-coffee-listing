@@ -19,6 +19,8 @@ export const CoffeeList = () => {
 		loadData();
 	}, []);
 
+	console.log(errorMessage);
+	
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
 			{coffeeData.map((coffee) => (
